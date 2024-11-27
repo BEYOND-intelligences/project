@@ -10,3 +10,4 @@ def about (request):
 
 def base (request):
     return render(request,'templates/base.html' )
+

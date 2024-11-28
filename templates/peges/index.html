@@ -1,5 +1,5 @@
-{% extends "base.html" %}
-
+{% extends "part/base.html" %}
+{% load static %}
 
 {% block code %}
 <!DOCTYPE html>
@@ -21,10 +21,11 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
         
-        <h1 style="color:red">
-            fghf
+        <h1 style="color:black">
+           index
         </h1>
-        
+        {% comment %} <img src = "{% static "image/1105295.jpg" %}"
+        style = "width : 800px" > {% endcomment %}
         
         <script src="" async defer></script>
     </body>
